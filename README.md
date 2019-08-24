@@ -6,6 +6,7 @@ This is the submission by **Pham Phu Chau** _(hoanglongnasha)_ for the Project i
 2. `CodeBook.md`: a detailed description on the variables created while running the script
 3. `run_analysis.R`: the script to clean and tidy the data set
 4. `tidydataset.txt`: the cleaned and tidied data set 
+5. `UCI HAR Dataset`: a folder containing the unzipped data to be cleaned and tidied
 
 ## **Code Explanation**
 Please **download everything in the repository including the dataset folder**, or alternatively, you can **put the analysis.R file into the same folder as the dataset folder already unzipped** as in the repository.
