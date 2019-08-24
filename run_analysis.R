@@ -38,6 +38,7 @@ temp <- sub("Mag", "Magnitude", temp)
 names(sort_dat) <- temp
 
 ##Summarise the dataset
+summary <- data.frame()
 my_summary <- function(x) {
     mean_grp <- paste("Average of", names(sort_dat)[x])
     expr <- sym(names(sort_dat)[x])
@@ -53,3 +54,7 @@ for(i in 3:length(sort_dat)) {
 }
 
 View(summary) 
+
+##The last line of this script will write the table and output the data set as text file
+##write.table(summary, file = "tidydataset.txt", row.names = FALSE)
+##To read the data set, use command `read.table("tidydataset.txt", header = TRUE)`
