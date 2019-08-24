@@ -29,4 +29,5 @@ This codebook contains information about all the objects created in the making o
 ### **Summarise the dataset**
 ========================================================
 
-13. `summary`: a (180 x 81) data frame containing the calculated average of each variable for each activity and each subject
+13. `my_summary`: a custom function to summarize the data by group of subject and activity with custom ouput variable names
+14. `summary`: a (180 x 81) data frame containing the calculated average of each variable for each activity and each subject
